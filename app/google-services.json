@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "42658868966",
+    "firebase_url": "https://harsh-7f1f3.firebaseio.com",
+    "project_id": "harsh-7f1f3",
+    "storage_bucket": "harsh-7f1f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42658868966:android:c041e25cccce1bcf",
+        "android_client_info": {
+          "package_name": "com.example.minesh.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42658868966-4rru4nnr63l1ci3jhiahtk145augutp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdrbMAI_1b-6qQ7LuLYjD0FtXzIw7lV8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_activity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordLogin"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailLogin"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/LOGIN3"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:onClick="resetPassword"
+        android:text="Forgot Password? Send Reset password Email to your Registered Email id"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:text="User Login"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/LOGIN2"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:onClick="onClickRegister"
+        android:text="New User? Click here to Register yourself"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/register2"
+        style="@android:style/Widget.Material.Button.Toggle"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:onClick="onLogin"
+        android:text="Login"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+</RelativeLayout>
